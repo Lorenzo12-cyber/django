@@ -1,4 +1,6 @@
 # bienvenidos a mi proyecto de la comision 60075 
 
 - agregue esta linea
--agurego otra linea porque quiero
+- agregue otra linea en mi README
+- soy otra linea mue hehe
+- agurego otra linea porque quiero 
