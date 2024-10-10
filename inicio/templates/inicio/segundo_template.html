@@ -1,0 +1,25 @@
+{% extends "inicio/index.html" %}
+{% load  static %} 
+{% block h1_header %}segundo Template{% endblock h1_header %}
+{% block main %}
+<h2>{{fecha_actual}}</h2> 
+<ul>
+    <li>esto es una li de ul</li> 
+</ul>
+<ol>
+    <li>esto es una li de ol</li>
+</ol>
+<p>Listado</p>
+<ul>
+    {% for num in numeros %}
+    {% if num > 5 %}
+    <li>{{num}}</li>
+    {% elif num == 5%}
+    <li>soy el mejor numero ... el 5</li>
+    {% else %}
+    <Li>soy menor a 5</Li>
+    {% endif %}
+    {% endfor %}    
+</ul>
+<img src={% static "assets/img/testimonials-3.jpg" %} alt="">
+{% endblock main %}
